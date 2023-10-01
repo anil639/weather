@@ -25,7 +25,7 @@ function App() {
         <div className="card">
           <div className="search">
             <input
-              placeholder="enter the city name"
+              placeholder="Enter a city name"
               type="search"
               value={search}
               onChange={(e) => {
@@ -38,7 +38,7 @@ function App() {
           <div className="weather">
             <img src={cloud} alt="img" height={200}></img>
             {!city ? (
-              <p>no data found</p>
+              <p>Please enter a city Name.</p>
             ) : (
               <h1 className="temp"> {city.temp}°c</h1>
             )}

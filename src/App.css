@@ -42,10 +42,8 @@
   box-sizing: border-box;
 }
 .body {
-  background-color: rgb(181, 175, 181);
   background-repeat: no-repeat;
   background-size: cover;
-
   height: 650px;
   display: flex;
 }
